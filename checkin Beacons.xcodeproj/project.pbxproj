@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBD453A1A9066FA0032AF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD45391A9066FA0032AF47 /* main.m */; };
+		CEBD453D1A9066FA0032AF47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD453C1A9066FA0032AF47 /* AppDelegate.m */; };
+		CEBD45401A9066FA0032AF47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD453F1A9066FA0032AF47 /* ViewController.m */; };
+		CEBD45431A9066FA0032AF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD45411A9066FA0032AF47 /* Main.storyboard */; };
+		CEBD45451A9066FA0032AF47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD45441A9066FA0032AF47 /* Images.xcassets */; };
+		CEBD45541A9066FA0032AF47 /* checkin_BeaconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD45531A9066FA0032AF47 /* checkin_BeaconsTests.m */; };
+		CEBD455E1A90670E0032AF47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD455D1A90670E0032AF47 /* UIKit.framework */; };
+		CEBD45601A9067210032AF47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD455F1A9067210032AF47 /* Foundation.framework */; };
+		CEBD457D1A906AE50032AF47 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD457C1A906AE50032AF47 /* libEstimoteSDK.a */; };
+		CEBD457F1A906AF60032AF47 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD457E1A906AF60032AF47 /* CoreBluetooth.framework */; };
+		CEBD45811A906AFD0032AF47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD45801A906AFD0032AF47 /* CoreLocation.framework */; };
+		CEBD45831A906B070032AF47 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD45821A906B070032AF47 /* SystemConfiguration.framework */; };
+		CEBD45851A906B140032AF47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBD45841A906B140032AF47 /* CoreGraphics.framework */; };
+		CEBD45881A906F560032AF47 /* beaconsTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD45871A906F560032AF47 /* beaconsTableVC.m */; };
+		CEBD458B1A9071FF0032AF47 /* UserSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD458A1A9071FF0032AF47 /* UserSettings.m */; };
+		CEBD458E1A90B8C40032AF47 /* GenericMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBD458D1A90B8C40032AF47 /* GenericMethods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBD454E1A9066FA0032AF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD452C1A9066FA0032AF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD45331A9066FA0032AF47;
+			remoteInfo = "checkin Beacons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBD45341A9066FA0032AF47 /* checkin Beacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "checkin Beacons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD45381A9066FA0032AF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD45391A9066FA0032AF47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEBD453B1A9066FA0032AF47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEBD453C1A9066FA0032AF47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEBD453E1A9066FA0032AF47 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEBD453F1A9066FA0032AF47 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEBD45421A9066FA0032AF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBD45441A9066FA0032AF47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEBD454D1A9066FA0032AF47 /* checkin BeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "checkin BeaconsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD45521A9066FA0032AF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD45531A9066FA0032AF47 /* checkin_BeaconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checkin_BeaconsTests.m; sourceTree = "<group>"; };
+		CEBD455D1A90670E0032AF47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEBD455F1A9067210032AF47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEBD45641A906AE50032AF47 /* ESTBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeacon.h; sourceTree = "<group>"; };
+		CEBD45651A906AE50032AF47 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		CEBD45661A906AE50032AF47 /* ESTBeaconFirmwareVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconFirmwareVO.h; sourceTree = "<group>"; };
+		CEBD45671A906AE50032AF47 /* ESTBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconManager.h; sourceTree = "<group>"; };
+		CEBD45681A906AE50032AF47 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconRegion.h; sourceTree = "<group>"; };
+		CEBD45691A906AE50032AF47 /* ESTBeaconUpdateConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateConfig.h; sourceTree = "<group>"; };
+		CEBD456A1A906AE50032AF47 /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		CEBD456B1A906AE50032AF47 /* ESTBeaconVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconVO.h; sourceTree = "<group>"; };
+		CEBD456C1A906AE50032AF47 /* ESTBulkUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBulkUpdater.h; sourceTree = "<group>"; };
+		CEBD456D1A906AE50032AF47 /* ESTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTConfig.h; sourceTree = "<group>"; };
+		CEBD456E1A906AE50032AF47 /* ESTDateRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTDateRule.h; sourceTree = "<group>"; };
+		CEBD456F1A906AE50032AF47 /* ESTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTDefinitions.h; sourceTree = "<group>"; };
+		CEBD45701A906AE50032AF47 /* ESTFirmwareInfoVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTFirmwareInfoVO.h; sourceTree = "<group>"; };
+		CEBD45711A906AE50032AF47 /* ESTMotionRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTMotionRule.h; sourceTree = "<group>"; };
+		CEBD45721A906AE50032AF47 /* ESTNearable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearable.h; sourceTree = "<group>"; };
+		CEBD45731A906AE50032AF47 /* ESTNearableDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearableDefinitions.h; sourceTree = "<group>"; };
+		CEBD45741A906AE50032AF47 /* ESTNearableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearableManager.h; sourceTree = "<group>"; };
+		CEBD45751A906AE50032AF47 /* ESTNearableRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNearableRule.h; sourceTree = "<group>"; };
+		CEBD45761A906AE50032AF47 /* ESTOrientationRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTOrientationRule.h; sourceTree = "<group>"; };
+		CEBD45771A906AE50032AF47 /* ESTProximityRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTProximityRule.h; sourceTree = "<group>"; };
+		CEBD45781A906AE50032AF47 /* ESTRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTRule.h; sourceTree = "<group>"; };
+		CEBD45791A906AE50032AF47 /* ESTTemperatureRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTemperatureRule.h; sourceTree = "<group>"; };
+		CEBD457A1A906AE50032AF47 /* ESTTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTrigger.h; sourceTree = "<group>"; };
+		CEBD457B1A906AE50032AF47 /* ESTTriggerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTTriggerManager.h; sourceTree = "<group>"; };
+		CEBD457C1A906AE50032AF47 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEstimoteSDK.a; sourceTree = "<group>"; };
+		CEBD457E1A906AF60032AF47 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CEBD45801A906AFD0032AF47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEBD45821A906B070032AF47 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEBD45841A906B140032AF47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEBD45861A906F560032AF47 /* beaconsTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beaconsTableVC.h; sourceTree = "<group>"; };
+		CEBD45871A906F560032AF47 /* beaconsTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = beaconsTableVC.m; sourceTree = "<group>"; };
+		CEBD45891A9071FF0032AF47 /* UserSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettings.h; sourceTree = "<group>"; };
+		CEBD458A1A9071FF0032AF47 /* UserSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettings.m; sourceTree = "<group>"; };
+		CEBD458C1A90B8C40032AF47 /* GenericMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericMethods.h; sourceTree = "<group>"; };
+		CEBD458D1A90B8C40032AF47 /* GenericMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericMethods.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBD45311A9066FA0032AF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD45851A906B140032AF47 /* CoreGraphics.framework in Frameworks */,
+				CEBD45831A906B070032AF47 /* SystemConfiguration.framework in Frameworks */,
+				CEBD45811A906AFD0032AF47 /* CoreLocation.framework in Frameworks */,
+				CEBD457F1A906AF60032AF47 /* CoreBluetooth.framework in Frameworks */,
+				CEBD457D1A906AE50032AF47 /* libEstimoteSDK.a in Frameworks */,
+				CEBD45601A9067210032AF47 /* Foundation.framework in Frameworks */,
+				CEBD455E1A90670E0032AF47 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD454A1A9066FA0032AF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBD452B1A9066FA0032AF47 = {
+			isa = PBXGroup;
+			children = (
+				CEBD45361A9066FA0032AF47 /* checkin Beacons */,
+				CEBD45501A9066FA0032AF47 /* checkin BeaconsTests */,
+				CEBD45611A90672B0032AF47 /* Framework */,
+				CEBD45351A9066FA0032AF47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBD45351A9066FA0032AF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD45341A9066FA0032AF47 /* checkin Beacons.app */,
+				CEBD454D1A9066FA0032AF47 /* checkin BeaconsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBD45361A9066FA0032AF47 /* checkin Beacons */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD453B1A9066FA0032AF47 /* AppDelegate.h */,
+				CEBD453C1A9066FA0032AF47 /* AppDelegate.m */,
+				CEBD453E1A9066FA0032AF47 /* ViewController.h */,
+				CEBD453F1A9066FA0032AF47 /* ViewController.m */,
+				CEBD45861A906F560032AF47 /* beaconsTableVC.h */,
+				CEBD45871A906F560032AF47 /* beaconsTableVC.m */,
+				CEBD45411A9066FA0032AF47 /* Main.storyboard */,
+				CEBD45441A9066FA0032AF47 /* Images.xcassets */,
+				CEBD45371A9066FA0032AF47 /* Supporting Files */,
+			);
+			path = "checkin Beacons";
+			sourceTree = "<group>";
+		};
+		CEBD45371A9066FA0032AF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD458C1A90B8C40032AF47 /* GenericMethods.h */,
+				CEBD458D1A90B8C40032AF47 /* GenericMethods.m */,
+				CEBD45891A9071FF0032AF47 /* UserSettings.h */,
+				CEBD458A1A9071FF0032AF47 /* UserSettings.m */,
+				CEBD45381A9066FA0032AF47 /* Info.plist */,
+				CEBD45391A9066FA0032AF47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBD45501A9066FA0032AF47 /* checkin BeaconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD45531A9066FA0032AF47 /* checkin_BeaconsTests.m */,
+				CEBD45511A9066FA0032AF47 /* Supporting Files */,
+			);
+			path = "checkin BeaconsTests";
+			sourceTree = "<group>";
+		};
+		CEBD45511A9066FA0032AF47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD45521A9066FA0032AF47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEBD45611A90672B0032AF47 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD45841A906B140032AF47 /* CoreGraphics.framework */,
+				CEBD45821A906B070032AF47 /* SystemConfiguration.framework */,
+				CEBD45801A906AFD0032AF47 /* CoreLocation.framework */,
+				CEBD457E1A906AF60032AF47 /* CoreBluetooth.framework */,
+				CEBD45621A906AE50032AF47 /* EstimoteSDK */,
+				CEBD455F1A9067210032AF47 /* Foundation.framework */,
+				CEBD455D1A90670E0032AF47 /* UIKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		CEBD45621A906AE50032AF47 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD45631A906AE50032AF47 /* Headers */,
+				CEBD457C1A906AE50032AF47 /* libEstimoteSDK.a */,
+			);
+			name = EstimoteSDK;
+			path = "checkin Beacons/EstimoteSDK";
+			sourceTree = "<group>";
+		};
+		CEBD45631A906AE50032AF47 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD45641A906AE50032AF47 /* ESTBeacon.h */,
+				CEBD45651A906AE50032AF47 /* ESTBeaconDefinitions.h */,
+				CEBD45661A906AE50032AF47 /* ESTBeaconFirmwareVO.h */,
+				CEBD45671A906AE50032AF47 /* ESTBeaconManager.h */,
+				CEBD45681A906AE50032AF47 /* ESTBeaconRegion.h */,
+				CEBD45691A906AE50032AF47 /* ESTBeaconUpdateConfig.h */,
+				CEBD456A1A906AE50032AF47 /* ESTBeaconUpdateInfo.h */,
+				CEBD456B1A906AE50032AF47 /* ESTBeaconVO.h */,
+				CEBD456C1A906AE50032AF47 /* ESTBulkUpdater.h */,
+				CEBD456D1A906AE50032AF47 /* ESTConfig.h */,
+				CEBD456E1A906AE50032AF47 /* ESTDateRule.h */,
+				CEBD456F1A906AE50032AF47 /* ESTDefinitions.h */,
+				CEBD45701A906AE50032AF47 /* ESTFirmwareInfoVO.h */,
+				CEBD45711A906AE50032AF47 /* ESTMotionRule.h */,
+				CEBD45721A906AE50032AF47 /* ESTNearable.h */,
+				CEBD45731A906AE50032AF47 /* ESTNearableDefinitions.h */,
+				CEBD45741A906AE50032AF47 /* ESTNearableManager.h */,
+				CEBD45751A906AE50032AF47 /* ESTNearableRule.h */,
+				CEBD45761A906AE50032AF47 /* ESTOrientationRule.h */,
+				CEBD45771A906AE50032AF47 /* ESTProximityRule.h */,
+				CEBD45781A906AE50032AF47 /* ESTRule.h */,
+				CEBD45791A906AE50032AF47 /* ESTTemperatureRule.h */,
+				CEBD457A1A906AE50032AF47 /* ESTTrigger.h */,
+				CEBD457B1A906AE50032AF47 /* ESTTriggerManager.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBD45331A9066FA0032AF47 /* checkin Beacons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD45571A9066FA0032AF47 /* Build configuration list for PBXNativeTarget "checkin Beacons" */;
+			buildPhases = (
+				CEBD45301A9066FA0032AF47 /* Sources */,
+				CEBD45311A9066FA0032AF47 /* Frameworks */,
+				CEBD45321A9066FA0032AF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "checkin Beacons";
+			productName = "checkin Beacons";
+			productReference = CEBD45341A9066FA0032AF47 /* checkin Beacons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBD454C1A9066FA0032AF47 /* checkin BeaconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD455A1A9066FA0032AF47 /* Build configuration list for PBXNativeTarget "checkin BeaconsTests" */;
+			buildPhases = (
+				CEBD45491A9066FA0032AF47 /* Sources */,
+				CEBD454A1A9066FA0032AF47 /* Frameworks */,
+				CEBD454B1A9066FA0032AF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD454F1A9066FA0032AF47 /* PBXTargetDependency */,
+			);
+			name = "checkin BeaconsTests";
+			productName = "checkin BeaconsTests";
+			productReference = CEBD454D1A9066FA0032AF47 /* checkin BeaconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBD452C1A9066FA0032AF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ghassan ALMarei";
+				TargetAttributes = {
+					CEBD45331A9066FA0032AF47 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = B42Z8M36U2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CEBD454C1A9066FA0032AF47 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CEBD45331A9066FA0032AF47;
+					};
+				};
+			};
+			buildConfigurationList = CEBD452F1A9066FA0032AF47 /* Build configuration list for PBXProject "checkin Beacons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBD452B1A9066FA0032AF47;
+			productRefGroup = CEBD45351A9066FA0032AF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBD45331A9066FA0032AF47 /* checkin Beacons */,
+				CEBD454C1A9066FA0032AF47 /* checkin BeaconsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBD45321A9066FA0032AF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD45431A9066FA0032AF47 /* Main.storyboard in Resources */,
+				CEBD45451A9066FA0032AF47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD454B1A9066FA0032AF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBD45301A9066FA0032AF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD458E1A90B8C40032AF47 /* GenericMethods.m in Sources */,
+				CEBD45401A9066FA0032AF47 /* ViewController.m in Sources */,
+				CEBD458B1A9071FF0032AF47 /* UserSettings.m in Sources */,
+				CEBD453D1A9066FA0032AF47 /* AppDelegate.m in Sources */,
+				CEBD453A1A9066FA0032AF47 /* main.m in Sources */,
+				CEBD45881A906F560032AF47 /* beaconsTableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD45491A9066FA0032AF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD45541A9066FA0032AF47 /* checkin_BeaconsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBD454F1A9066FA0032AF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD45331A9066FA0032AF47 /* checkin Beacons */;
+			targetProxy = CEBD454E1A9066FA0032AF47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBD45411A9066FA0032AF47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD45421A9066FA0032AF47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBD45551A9066FA0032AF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEBD45561A9066FA0032AF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBD45581A9066FA0032AF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/checkin\\ Beacons/EstimoteSDK/Headers",
+				);
+				INFOPLIST_FILE = "checkin Beacons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checkin\\ Beacons/EstimoteSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				REZ_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		CEBD45591A9066FA0032AF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/checkin\\ Beacons/EstimoteSDK/Headers",
+				);
+				INFOPLIST_FILE = "checkin Beacons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checkin\\ Beacons/EstimoteSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				REZ_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		CEBD455B1A9066FA0032AF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "checkin BeaconsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkin Beacons.app/checkin Beacons";
+			};
+			name = Debug;
+		};
+		CEBD455C1A9066FA0032AF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "checkin BeaconsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkin Beacons.app/checkin Beacons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBD452F1A9066FA0032AF47 /* Build configuration list for PBXProject "checkin Beacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD45551A9066FA0032AF47 /* Debug */,
+				CEBD45561A9066FA0032AF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD45571A9066FA0032AF47 /* Build configuration list for PBXNativeTarget "checkin Beacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD45581A9066FA0032AF47 /* Debug */,
+				CEBD45591A9066FA0032AF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD455A1A9066FA0032AF47 /* Build configuration list for PBXNativeTarget "checkin BeaconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD455B1A9066FA0032AF47 /* Debug */,
+				CEBD455C1A9066FA0032AF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBD452C1A9066FA0032AF47 /* Project object */;
+}
